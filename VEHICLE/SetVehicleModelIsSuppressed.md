@@ -3,7 +3,12 @@ ns: VEHICLE
 ---
 ## SET_VEHICLE_MODEL_IS_SUPPRESSED
 
-```c
+```
+SetVehicleModelIsSuppressed(GetHashKey(model), true)
+```
+
+
+```
 // 0x0FC2D89AC25A5814 0x42A08C9B
 void SET_VEHICLE_MODEL_IS_SUPPRESSED(Hash model, BOOL suppressed);
 ```
